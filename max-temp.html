@@ -4,9 +4,50 @@
 <head>
   <meta charset="UTF-8">
   <title>WeatherPy Project - Max Temperature</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
 </head>
 
 <body>
+
+ <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNav" >
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" id="home-link" href="../weather-py/index.html" >Latitude</a>
+      </div>
+
+	    
+	    
+    
+      <div class="collapse navbar-collapse" id="myNav">
+        <ul class="nav navbar-nav navbar-right">
+		
+	<li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../weather-py/max-temp.html">Max Temperature</a></li>
+              <li><a href="../weather-py/humidity.html">Humidity</a></li>
+              <li><a href="../weather-py/cloudiness.html">Cloudiness</a></li>
+              <li><a href="../weather-py/wind-speed.html">Wind Speed</a></li>
+            </ul>
+          </li>
+	  <li class="active"><a href="#">Comparison<span class="sr-only">(current)</span></a></li>
+          <li><a href="#">Data</a></li>  
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>	
+
   <h1>Max Temperature</h1>
   <img src="images/output_11_0.png" alt="" width=200 />
   <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude).</p>

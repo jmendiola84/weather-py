@@ -1,0 +1,45 @@
+
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+body {
+  background: #f1f1f1;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: "Georgia", Times, serif;
+  color : #00c5cd;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: "Georgia", Times, serif;
+}
+
+a:hover {
+	color: #242342;
+}
+
+
+.navbar-header a {
+	background-color : #00c5cd;
+	font-family: "Georgia", Times, serif;
+	font-size: 40 px;
+	color: white;
+}
+
+.navbar-header a:hover {
+	color: #242342;
+}
+
+#home-link {
+	font-family: "Georgia", Times, serif;
+	font-size: 40 px;
+	color: white;
+}
+
+#home-link:hover {
+	background-color: white;
+	font-family: "Georgia", Times, serif;
+	font-size: 40 px;
+	color: teal;
+}
