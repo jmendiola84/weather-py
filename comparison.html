@@ -1,18 +1,18 @@
+
 <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
   <meta charset="UTF-8">
-  <title>WeatherPy Project - Max Temperature</title>
+  <title>WeatherPy Project - Comparison</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  
 </head>
 
 <body>
-
+	
  <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -39,7 +39,7 @@
               <li><a href="../weather-py/wind-speed.html">Wind Speed</a></li>
             </ul>
           </li>
-	  <li><a href="../weather-py/comparison.html">Comparison</a></li>
+		  <li><a href="../weather-py/comparison.html">Comparison</a></li>
           <li><a href="../weather-py/data.html">Data</a></li>  
         </ul>
       </div>
@@ -47,20 +47,24 @@
     </div>
     <!-- /.container-fluid -->
   </nav>	
-
-  <h1>Max Temperature</h1>
-  <img src="images/output_11_0.png" alt="" width=200 />
-  <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude).</p>
-  <p>More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere.</p>
-  <p>This may be due to the tilt of the earth at the time of the year this data was gathered. </p>
+	
+	
+	
+  <h1>Comparison: Latitude vs. X </h1>
+  <p> Click any plot to get an in-depth analysis. </p>
 
 <table>
 	<tr>
-		<th span=2>Visualizations</th>
+		<td><h3>vs Max Temperature</h3></td>
+		<td><h3>vs Humidity</h3></td>
 	</tr>
 	<tr>
-		<td><img src="images/output_11_0.png" alt="" width=200 border=5/></td>
+		<td><a href="../weather-py/max-temp.html"><img src="images/output_11_0.png" alt="" width=200 /></td>
 		<td><a href="../weather-py/humidity.html"><img src="images/output_13_0.png" alt="" width=200 /></td>
+	</tr>
+	<tr>
+		<td><h3>vs Cloudiness</h3></td>
+		<td><h3>vs Wind Speed</h3></td>
 	</tr>
 	<tr>
 		<td><a href="../weather-py/cloudiness.html"><img src="images/output_15_0.png" alt="" width=200 /></td>
