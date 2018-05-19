@@ -114,10 +114,14 @@ body {
 }
 
 #description {
-	width: 70%;
 	padding: 20px;
 	margin-right: 20px;
 	margin-left: 0px;
 	background-color:white;
+}
+
+.img-fluid {
+    max-width: 80%;
+    height: auto;
 }
 }
