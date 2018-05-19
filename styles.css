@@ -114,9 +114,8 @@ body {
 }
 
 #description {
-	align: justify;
 	padding: 0px;
-	margin-right: 0px;
+	margin-right: 20px;
 	margin-left: 0px;
 	background-color:white;
 }
