@@ -26,7 +26,7 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 35px;
   font-family: "Georgia", Times, serif;
   color : #00c5cd;
 }
@@ -41,6 +41,9 @@ a:hover {
 	color: #242342;
 }
 
+#description p {
+	align: justify;
+}
 
 .navbar-header a {
 	background-color : #00c5cd;
@@ -81,17 +84,39 @@ a:hover {
 	white-space: normal;
 }
 
+.thumbnail a img {
+	padding: 1px;
+	margin-left: 1px;
+	margin-right: 1px;
+	column-gap: 1px; 
+}
+
 #page-content {
 	margin-left: 20px;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
 
-nav {
+.navbar-header {
     background: #00c5cd;
 	color:  #00c5cd;
+	background-color: #00c5cd;
+
   }
+
+.navbar-brand {
+	font-size: 70px;	
+}
+  
+body {
+	background-color:white;
+}
+
 #description {
-	visibility: hidden;
+	align: justify;
+	padding: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	background-color:white;
 }
 }
