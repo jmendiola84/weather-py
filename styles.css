@@ -1,3 +1,24 @@
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
 
 /* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
 body {
@@ -43,4 +64,22 @@ a:hover {
 	font-family: "Georgia", Times, serif;
 	font-size: 40 px;
 	color: teal;
+}
+
+#description {
+	padding: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	background-color:white;
+}
+
+#plots {
+	padding: 20px;
+	margin-left: 10px;
+	background-color:white;
+	white-space: normal;
+}
+
+#page-content {
+	margin-left: 20px;
 }

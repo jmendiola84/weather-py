@@ -48,27 +48,41 @@
     <!-- /.container-fluid -->
   </nav>	
 	
+<div id="page-content" class="container-fluid">
 	
-	
-  <h1>Summary: Latitude vs. X </h1>
-  <p> The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities. </p>
-  <br>
-  <p> After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looker at included:temperature. cloudiness, wind speed, and humidity.</p>
-  <p> This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. </p>
+ <div class="row">
+  <div id="description" class="col-sm-7">
+	<h1>Summary: Latitude vs. X </h1>
+	<p> The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities. </p>
+	<br>
+	<p> After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looker at included:temperature. cloudiness, wind speed, and humidity.</p>
+	<p> This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. </p>
+  </div>
 
-<table>
-	<tr>
-		<th span=2><h1>Visualizations</h1></th>
-	</tr>
-	<tr>
-		<td><a href="../weather-py/max-temp.html"><img src="images/output_11_0.png" alt="" width=200 /></td>
-		<td><a href="../weather-py/humidity.html"><img src="images/output_13_0.png" alt="" width=200 /></td>
-	</tr>
-	<tr>
-		<td><a href="../weather-py/cloudiness.html"><img src="images/output_15_0.png" alt="" width=200 /></td>
-		<td><a href="../weather-py/wind-speed.html"><img src="images/output_17_0.png" alt="" width=200 /></td>
-	</tr>
-</table>
+  <div id="plots" class="col-sm-4">
+	<div class="row">
+	 <div class="col-sm-12">
+	 <h1>Visualizations</h1>
+	 </div>
+	 </div>
+	<div class="row">
+	 <div class="col-md-6 col-sm-6 col-xs-3">
+       <a href="../weather-py/max-temp.html"><img src="images/output_11_0.png" class="img-thumbnail" alt="Responsive image" /> 
+	 </div>
+	 <div class="col-md-6 col-sm-6 col-xs-3">
+	   <a href="../weather-py/humidity.html"><img src="images/output_13_0.png" class="img-thumbnail" alt="Responsive image"  />
+	 </div>
+	 <div class="col-md-6 col-sm-6 col-xs-3">
+       <a href="../weather-py/cloudiness.html"><img src="images/output_15_0.png" class="img-thumbnail" alt="Responsive image" />
+     </div>
+	 <div class="col-md-6 col-sm-6 col-xs-3">
+	  <a href="../weather-py/wind-speed.html"><img src="images/output_17_0.png" class="img-thumbnail" alt="Responsive image" />
+	 </div>
+	 </div>
+	</div>
+  </div>
+ </div>
+
 </body>
 
 </html>
