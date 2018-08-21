@@ -1,7 +1,11 @@
 # Latitude
 
-![stars-banner.jpg](https://www.kcet.org/sites/kl/files/styles/kl_image_article_hero/public/thumbnails/image/stars-banner.jpg?itok=uFRO8PCz)
-## Weather Analysis 
+![output_11_0.png](https://github.com/jmendiola84/weather-py/blob/master/images/output_11_0.png)
+![output_13_0.png](https://github.com/jmendiola84/weather-py/blob/master/images/output_13_0.png)
+![output_15_0.png](https://github.com/jmendiola84/weather-py/blob/master/images/output_15_0.png)
+![output_17_0.png](https://github.com/jmendiola84/weather-py/blob/master/images/output_17_0.png)
+
+## Weather Analysis nearby Equator
 #### *Project created as part of GWU Data Analytics course.*
 > HTML, Python, Bootstrap
 
